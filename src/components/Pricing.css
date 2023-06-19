@@ -1,0 +1,29 @@
+.pricing-tag-header{
+    background-color: #0f0f11;
+    background: linear-gradient(to right,#6549D5 ,#E33FA1 ,#FB5343 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing-header{
+    color: white;
+    font-size: 40px;
+}
+
+.pack-features{
+    list-style: none;
+    color: white;
+}
+
+.pack-features li::before{
+    content: '✓';
+}
+
+.pack-header{
+    background-color: #0f0f11;
+    color: white;
+}
+
+.list-group-flush{
+    background-color: #1e1e1e;
+}

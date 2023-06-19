@@ -1,0 +1,53 @@
+.intro-container{
+    height: 750px;
+}
+
+.intro-header{
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.intro-img{
+    width: 480px;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.intro-text{
+    font-size: 90px;
+    background: linear-gradient(to right,#6549D5 ,#E33FA1 ,#FB5343 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-sub-text{
+    color: #acacac;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.intro-hire-btn{
+    color: white;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: linear-gradient(to right,#059DFF,#6549D5,#E33FA1,#FB5343);
+}
+
+.intro-register-btn{
+    color: white;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #acacac;
+    background-color: #FB5343;
+    outline: none;
+    background: transparent;
+}
+
+.intro-register-btn:hover{
+    background-color: #FB5343;
+    border-color: #FB5343;
+}

@@ -1,0 +1,86 @@
+.timeline {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:600px){
+    .timeline{
+        width: 100%;
+    }
+}
+
+@media (min-width: 400px){
+    .timeline{
+        width: 100%;
+    }
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+}
+
+.timeline-item-circle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #011827;
+    color: #059DFF;
+    font-size: 50px;
+}
+.timeline-item-circle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #190301;
+    color: #FB5343;
+    font-size: 50px;
+}
+.timeline-item-circle3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #150b40;
+    color: #6549D5;
+    font-size: 50px;
+}
+.timeline-item-circle4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #2f011d;
+    color: #E33FA1;
+    font-size: 50px;
+}
+
+.timeline-item-line {
+    width: 150px;
+    flex-grow: 1;
+    height: 2px;
+    background-color: #acacac;
+}
+
+.timeline-item:last-child .timeline-item-line {
+    display: none;
+}
+
+.timeline-text{
+    color: white;
+    font-weight: 700px;
+}
+
+.timeline-header:hover{
+    color: #059DFF;
+}

@@ -1,0 +1,57 @@
+.team-tab {
+    display: flex;
+    justify-content: center;
+}
+
+.team-tab-desc {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.team-tab-img {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.tab-img{
+    width: 800px;
+    border-radius: 10px;
+}
+
+.team-desc-text{
+    color: #acacac;
+}
+
+.selectedDiv{
+    color: white;
+    background-color: rgb(102, 85, 85);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* .selectedDiv::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    top: -10px;
+    left: calc(50% - 10px);
+} */
+
+.team-desc-text:hover{
+    background-color: rgb(85, 61, 61);
+    color: white;
+    border-radius: 10px;
+}

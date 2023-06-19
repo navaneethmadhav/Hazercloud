@@ -1,0 +1,16 @@
+.service-tag-header{
+    background-color: #0f0f11;
+    background: linear-gradient(to right,#6549D5 ,#E33FA1 ,#FB5343 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.service-header{
+    color: white;
+    font-size: 40px;
+}
+
+.service-header-text{
+    color: #acacac;
+    font-size: 20px;
+}
