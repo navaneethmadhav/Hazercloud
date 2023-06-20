@@ -24,6 +24,33 @@
     color: white;
 }
 
-.list-group-flush{
+.pack-price{
     background-color: #1e1e1e;
+}
+
+.pricing-hire-btn{
+    color: white;
+    font-weight: 500;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #acacac;
+    background-color: #FB5343;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.pricing-hire-btn:hover{
+    background-color: #FB5343;
+    border-color: #FB5343;
+}
+
+.cloudops-hire-btn{
+    color: white;
+    font-weight: 500;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#059DFF,#6549D5,#E33FA1,#FB5343);
 }

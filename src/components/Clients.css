@@ -1,0 +1,20 @@
+.clients-tag-header{
+    background-color: #0f0f11;
+    background: linear-gradient(to right,#6549D5 ,#E33FA1 ,#FB5343 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.clients-header{
+    color: white;
+    font-size: 40px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container-div{
+    margin-left: 350px;
+}

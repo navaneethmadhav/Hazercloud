@@ -5,7 +5,7 @@ import TeamImageTab from './TeamImageTab'
 
 const Team = () => {
     return (
-        <div>
+        <div className='team-container'>
             <Row>
                 <Col md={12} className='d-flex justify-content-center'>
                     <div className='team-tag'>

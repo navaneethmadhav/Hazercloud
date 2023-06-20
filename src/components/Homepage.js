@@ -4,6 +4,8 @@ import Intro from './Intro'
 import Services from './Services'
 import Team from './Team'
 import Pricing from './Pricing'
+import Clients from './Clients'
+import Footer from './Footer'
 
 const Homepage = () => {
   return (
@@ -19,6 +21,10 @@ const Homepage = () => {
         <Team />
 
         <Pricing />
+
+        <Clients />
+
+        <Footer />
     </div>
   )
 }

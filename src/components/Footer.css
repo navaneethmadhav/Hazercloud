@@ -1,0 +1,23 @@
+.footer-container{
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+.footer-img{
+    width: 150px;
+    height: 60px;
+}
+
+.footer-hire-text{
+    color: #acacac;
+}
+
+.footer-hire-btn{
+    color: white;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#059DFF,#6549D5,#E33FA1,#FB5343);
+}
+
